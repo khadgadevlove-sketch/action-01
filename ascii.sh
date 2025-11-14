@@ -1,4 +1,4 @@
 #!/bin/bash
-sudo apt -ger install cowsay       
-cowsay -f dragon "Run for cover" >> dragon.txt
+sudo apt-get install cowsay       
+cowsay -f dragon "Run for cowsay" >> dragon.txt
 run: cat dragon.txt
