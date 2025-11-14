@@ -5,5 +5,8 @@ jobs:
     first_job:
         runs-on: ubuntu-latest
         steps:
-            - name: log the node js version
-              run:  echo "prining the node js version"
+            - name: checkout the code
+              uses: actions/checkout@v4
+
+            - name: list all the content
+              run:  ls
