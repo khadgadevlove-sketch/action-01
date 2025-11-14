@@ -13,11 +13,14 @@ jobs:
                 ls -ltr
                 cat README.md
 
-            - name: Install cowsay
-              run: sudo apt-get install cowsay
+            - name: run script
+              run: ./ascii.sh
 
-            - name: Execute Cow Say Command
-              run: cowsay -f dragon "Run for cover" >> dragon.txt
+            # - name: Install cowsay
+            #   run: sudo apt-get install cowsay
 
-            - name: show the results
-              run: cat dragon.txt
+            # - name: Execute Cow Say Command
+            #   run: cowsay -f dragon "Run for cover" >> dragon.txt
+
+            # - name: show the results
+            #   run: cat dragon.txt
