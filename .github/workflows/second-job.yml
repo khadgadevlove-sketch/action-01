@@ -1,4 +1,4 @@
-name: Job with matrix
+name: Job with matrix for parallel
 on:
     push
 jobs:
