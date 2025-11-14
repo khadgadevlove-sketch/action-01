@@ -12,3 +12,6 @@ jobs:
               run:  |
                 ls -ltr
                 cat README.md
+
+            - name: Execute Cow Say Command
+              run: cowsay -f dragon "Run for cover" >> dragon.txt
