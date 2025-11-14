@@ -14,7 +14,9 @@ jobs:
                 cat README.md
 
             - name: run script
-              run: ./ascii.sh
+              run: |
+                chmod +x ./ascii.sh
+                ./ascii.sh
 
             # - name: Install cowsay
             #   run: sudo apt-get install cowsay
