@@ -1,0 +1,9 @@
+name: First Workflow
+on:
+    push 
+jobs:
+    first_job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: log the node js version
+              run:  echo "prining the node js version"
